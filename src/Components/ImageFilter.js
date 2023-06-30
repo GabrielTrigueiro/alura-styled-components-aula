@@ -6,7 +6,7 @@ import utilidades from '../assets/images/utilidades.svg';
 import { Icone } from '../Components/UI';
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default ({ type }) => {
+export default (type) => {
   const Images = {
     Restaurante: <Icone src={alimentacao} alt={'Restaurante'} />,
     Utilidades: <Icone src={utilidades} alt={'Utilidades'} />,
